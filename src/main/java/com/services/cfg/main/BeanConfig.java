@@ -5,7 +5,7 @@ import org.springframework.boot.context.embedded.ServletRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-
+// This class is used for HSQL dynamic console
 @Configuration
 public class BeanConfig {
 
