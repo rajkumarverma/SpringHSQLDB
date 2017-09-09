@@ -13,6 +13,7 @@ public class BeanConfig {
     org.springframework.boot.context.embedded.ServletRegistrationBean h2servletRegistration(){
         ServletRegistrationBean registrationBean = new ServletRegistrationBean(new WebServlet());
         registrationBean.addUrlMappings("/console/*");
+        System.out.println("Hello Config Test ");
         return registrationBean;
     }
 
