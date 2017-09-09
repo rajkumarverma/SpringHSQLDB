@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.services.service.ProductService;
-
+// This is the Product Controller
 @RestController
 public class ProductController {
 	
