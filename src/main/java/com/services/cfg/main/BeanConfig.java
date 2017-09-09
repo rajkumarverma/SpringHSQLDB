@@ -8,16 +8,11 @@ import org.springframework.context.annotation.Configuration;
 // This class is used for HSQL dynamic console
 @Configuration
 public class BeanConfig {
-////////////////////////////////////
 	@Bean
     org.springframework.boot.context.embedded.ServletRegistrationBean h2servletRegistration(){
         ServletRegistrationBean registrationBean = new ServletRegistrationBean(new WebServlet());
         registrationBean.addUrlMappings("/console/*");
-        System.out.println("Hello Config Test            ");
-	    gfglkflgkflgkfglkfgl
+        System.out.println("Hello Config Test");
         return registrationBean;
     }
-/////////////////////
-public void test(){
-}
 }
