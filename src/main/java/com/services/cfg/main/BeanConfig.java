@@ -14,7 +14,10 @@ public class BeanConfig {
         ServletRegistrationBean registrationBean = new ServletRegistrationBean(new WebServlet());
         registrationBean.addUrlMappings("/console/*");
         System.out.println("Hello Config Test            ");
+	    gfglkflgkflgkfglkfgl
         return registrationBean;
     }
 /////////////////////
+public void test(){
+}
 }
